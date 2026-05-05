@@ -1,0 +1,35 @@
+{
+  "name": "payplus-server",
+  "version": "1.0.0",
+  "description": "Production-ready PayPlus backend with Node.js, Express, MySQL, Sequelize, JWT auth, and work/rate calculations.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/app.js"
+  },
+  "keywords": [
+    "payplus",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.5",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
